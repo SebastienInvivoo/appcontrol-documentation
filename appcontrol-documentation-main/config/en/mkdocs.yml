@@ -1,0 +1,63 @@
+site_name: AppControl
+docs_dir: '../../docs/en'                           # Where to find the English markdown files
+site_dir: '../../site/en'                      # Where to put the English HTML files
+site_url: https://xcomponent.github.io/
+repo_url: https://xcomponent.github.io/appcontrol-documentation/
+
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - Tutoriel:
+    - Try a demo appli: gettingStarted.md
+    - Install Agent: agents.md
+    - Install Gateways: gateways.md
+    - Supervise and monitor Azure resources: agentAzure.md
+    - Create a map: map.md
+    - Install standalone: standalone.md
+    - Enrich your application with dynamic informations: dynamicMapInformations.md
+  - Explanation of each page:
+    - banner and menu button: page_banner_menu_buttonPanel.md
+    - homepage: page_homepage.md
+    - overview: page_overview.md
+    - map: page_map.md
+    - components: page_components.md
+    - operations: page_operations.md
+    - scheling: page_scheduling.md
+    - agents: page_agents.md
+    - gateways: page_gateways.md
+    - notifications: page_notifications.md
+    - cmdb: page_cmdb.md
+  - AppControl with other service:
+    - How to import your Centreon setup into AppControl: centreon.md
+    - How to integrate AppControl with a ServiceNow Cmdb: cmdb.md
+    - Using the AppControl Worker to implement an XC Scenario task: appcontrolWorker.md
+    - AppControl Cli: cli.md
+  - Other:
+    - Best practices: bestPractices.md
+    - Glossary: glossary.md
+    - FAQ: faq.md
+    - Contact: contact.md
+    
+       
+theme: 
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+
+
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: French
+      link: /fr/ 
+      lang: fr
+      
+plugins:
+  - search:  
+      lang: en 
